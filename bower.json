@@ -1,0 +1,19 @@
+{
+  "name": "frontend-develop-starter-kit",
+  "version": "1.0.0",
+  "homepage": "https://github.com/haribote/frontend-develop-starter-kit",
+  "authors": [
+    "KIMURA Tetsuro <haribote.nobody@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}
