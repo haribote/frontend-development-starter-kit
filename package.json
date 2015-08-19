@@ -4,7 +4,7 @@
   "description": "My ordinary development enviroments.",
   "main": "gulpfile.js",
   "scripts": {
-    "setup": "./bin/setup.sh",
+    "install": "./bin/setup.sh",
     "start": "parallelshell 'npm run start-serve' 'npm run watch'",
     "start-serve": "browser-sync start --config ./browser-sync.config.js",
     "lint:js": "eslint ./src/assets/js/",

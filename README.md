@@ -7,7 +7,7 @@ An environment to develop a website.
 
 ## Get Started
 ```bash
-npm run setup
+npm install
 ```
 
 ## Usage
