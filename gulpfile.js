@@ -43,7 +43,8 @@ gulp.task('css:pre', function () {
   return gulp.src(paths.src.cssFiles)
     .pipe(plumber())
     .pipe(filter(function (file) {
-      return !/\/_/.test(file.path);
+      var path = file.path;
+      return !/\/_/.test(path) && !/\.ejs/.test(path);
     }))
     .pipe(sass({
       errLogToConsole: true
